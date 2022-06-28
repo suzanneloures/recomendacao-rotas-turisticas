@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form method="post">
+    <h2>Avaliação de Recomendações</h2>
+<div class="row">
+    <div class="form-group">
+        <div class="input-field col s6">
+            <label for="partida">Nome da Rota</label>
+            <input type="text" name="route_name" placeholder="arena_dinha ou farol_dique" class="form-control" value="{{ request.form['route_name'] }}"></input>
+        </div>
+        <div class="input-field col s3">
+            <label for="id_user">ID Usuario</label>
+            <input type="text" name="id_user" class="form-control" value="{{ request.form['id_user'] }}"></input>
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div> 
+    <div class="row">
+        
+      <table>
+        <thead>
+          <tr>
+              <th>Resumo rota</th>
+              <th>Pontos</th>
+              <th>RecScore</th>
+              <th>Rank User</th>
+              <th>Rank</th>
+
+          </tr>
+        </thead>
+       
+        <tbody>
+        {% for item in resultado %}
+          <tr>
+            <td>{{item.google_route['summary']}}</td>
+            <td>
+            {% for poi in item.pois %}
+                {{ poi.name}} <br/>
+            {% endfor %}
+            </td>
+            <td>{{ '%0.2f'| format(item.rec_score|float) }}</td>
+            <td>{{item.rank_user}}</td>
+            <td>{{item.rank}}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+</div>
+</form>
+
+{% endblock %}

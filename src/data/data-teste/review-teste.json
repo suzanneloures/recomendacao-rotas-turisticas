@@ -1,0 +1,56 @@
+[
+ {
+    "item_id": 1001, 
+    "rating": 5,
+    "user_id": 1  },
+  {
+    "item_id": 1006,
+    "rating": 4,
+    "user_id": 2
+  },
+  {
+    "item_id": 1003,
+    "rating": 5,
+    "user_id": 2
+  },
+  {
+    "item_id": 1006,
+    "rating": 4,
+    "user_id": 2
+  },
+  {
+    "item_id": 1003,
+    "rating": 5,
+    "user_id": 3
+  },
+  {
+    "item_id": 1004,
+    "rating": 3,
+    "user_id": 3
+  },
+  {
+    "item_id": 1006,
+    "rating": 4,
+    "user_id": 4
+  },
+  {
+    "item_id": 1008,
+    "rating": 4,
+    "user_id": 1
+  },
+  {
+    "item_id": 1008,
+    "rating": 5,
+    "user_id": 4
+  },
+  {
+    "item_id": 1006,
+    "rating": 4,
+    "user_id": 3
+  },
+  {
+    "item_id": 1003,
+    "rating": 5,
+    "user_id": 4
+  }
+]

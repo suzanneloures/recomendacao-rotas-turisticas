@@ -1,0 +1,78 @@
+[
+ {
+    "item_id": 1001,
+    "category": [
+      "",
+      ""
+    ],
+    "name": "Praia da Pituba",
+    "longitude": -38.4652326,
+    "latitude":  -13.0091257
+  },
+ 
+  {
+    "item_id": 1002,
+    "category": [
+      "",
+      ""
+    ],
+    "name": "Praia de Amaralina",
+    "longitude": -38.4771347,
+    "latitude": -13.0146429
+  },
+  {
+    "item_id": 1003,
+    "category": [
+      "monument_memorial"
+    ],
+    "name": "Largo da Baianas",
+    "longitude": -38.4709286,
+    "latitude": -13.0131923
+  },
+  {
+    "item_id": 1004,
+    "category": [
+      "",
+      ""
+    ],
+    "name": "Praia do Rio Vermelho",
+    "longitude":-38.4950826,
+    "latitude": -13.0118954
+  },
+  {
+    "item_id": 1005,
+    "category": [
+      "monument_memorial"
+    ],
+    "name": "Monumento As Meninas do Brasil (Gordinhas)",
+    "longitude":-38.5114038,
+    "latitude": -13.0101438
+  },
+  {
+    "item_id": 1006,
+    "category": [
+      "viewpoint"
+    ],
+    "name": "Morro do Cristo",
+    "longitude": -38.523881,
+    "latitude": -13.0108191
+  },
+  {
+    "item_id": 1007,
+    "category": [
+      ""
+    ],
+    "name": "Parque da Cidade",
+    "longitude": -38.4758139,
+    "latitude": -12.9964227
+  },
+  {
+    "item_id": 1008,
+    "category": [
+      "monument_memorial"
+    ],
+    "name": "Monumento Cleriston Andrade",
+    "longitude": -38.5051364,
+    "latitude": -13.0010363
+  }
+]
